@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<!-- saved from url=(0123)https://www.braincert.com/course/lecture/14804-AWS-Solutions-Architect-%E2%80%93-Associate-SAA-C02-Practice-Exams/79425?t=1 -->
+<html xmlns:fb="http://ogp.me/ns/fb#" lang="en-gb" dir="ltr" class="wf-proximanova-n7-active wf-proximanova-n4-active wf-proximanova-n5-active wf-raleway-n4-active wf-active"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><meta name="format-detection" content="telephone=no"><script type="text/javascript" src="./COURSE_ AWS Solutions Architect – Associate (SAA-C02) Practice Exams _ BrainCert_files/pageload"></script><script src="./COURSE_ AWS Solutions Architect – Associate (SAA-C02) Practice Exams _ BrainCert_files/diffuser.js.download" async=""></script><script async="" src="./COURSE_ AWS Solutions Architect – Associate (SAA-C02) Practice Exams _ BrainCert_files/analytics.js.download"></script><script async="" src="./COURSE_ AWS Solutions Architect – Associate (SAA-C02) Practice Exams _ BrainCert_files/analytics.js.download"></script><script type="text/javascript" async="" src="./COURSE_ AWS Solutions Architect – Associate (SAA-C02) Practice Exams _ BrainCert_files/atatus.js.download"></script><script src="./COURSE_ AWS Solutions Architect – Associate (SAA-C02) Practice Exams _ BrainCert_files/M81S_HijPtXdsNHmc1AXd6ZXBqg.js.download"></script><script src="./COURSE_ AWS Solutions Architect – Associate (SAA-C02) Practice Exams _ BrainCert_files/m6hqvQYOFLqOBFRjk40PizI-Tp4.js.download"></script><link rel="canonical" href="https://www.braincert.com/course/lecture/14804-AWS-Solutions-Architect-%E2%80%93-Associate-SAA-C02-Practice-Exams/79425"><link rel="stylesheet" type="text/css" href="./COURSE_ AWS Solutions Architect – Associate (SAA-C02) Practice Exams _ BrainCert_files/bc-course.min_052517.css"><link rel="stylesheet" type="text/css" href="./COURSE_ AWS Solutions Architect – Associate (SAA-C02) Practice Exams _ BrainCert_files/bc-style-052517.css"><!--[if lt IE 9]> <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script> <script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script> <![endif]--><link rel="shortcut icon" href="https://static-assets.braincert.com/images/favicon.ico"> <script type="text/javascript" src="./COURSE_ AWS Solutions Architect – Associate (SAA-C02) Practice Exams _ BrainCert_files/jquery-1.11.0.min.js.download"></script> <script type="text/javascript">jQuery.noConflict();</script> <script src="./COURSE_ AWS Solutions Architect – Associate (SAA-C02) Practice Exams _ BrainCert_files/svp8zec.js.download"></script> <style type="text/css">.tk-proxima-nova{font-family:"proxima-nova",sans-serif;}.tk-raleway{font-family:"raleway",sans-serif;}</style><style type="text/css">@font-face{font-family:tk-proxima-nova-n7;src:url(https://use.typekit.net/af/949f99/00000000000000003b9b3068/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/949f99/00000000000000003b9b3068/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/949f99/00000000000000003b9b3068/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;font-display:auto;}@font-face{font-family:tk-proxima-nova-n4;src:url(https://use.typekit.net/af/705e94/00000000000000003b9b3062/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/705e94/00000000000000003b9b3062/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/705e94/00000000000000003b9b3062/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;font-display:auto;}@font-face{font-family:tk-proxima-nova-n5;src:url(https://use.typekit.net/af/6e816b/00000000000000003b9b3064/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3) format("woff2"),url(https://use.typekit.net/af/6e816b/00000000000000003b9b3064/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3) format("woff"),url(https://use.typekit.net/af/6e816b/00000000000000003b9b3064/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3) format("opentype");font-weight:500;font-style:normal;font-display:auto;}@font-face{font-family:tk-raleway-n4;src:url(https://use.typekit.net/af/8e698b/00000000000000003b9b13b3/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/8e698b/00000000000000003b9b13b3/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/8e698b/00000000000000003b9b13b3/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;font-display:auto;}</style><script>try{Typekit.load({ async: true });}catch(e){}</script> <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="keywords" content="virtual classroom, online test, online course, MOOC,  SCORM, whiteboard, adaptive testing, e-learning, online education, learn online, teach online, live class, lms, monetize, sell course, online meetings, collaboration, webinar, how to, social, teach, learn"><meta name="description" content="AWS Solution Architect - Associate (SAA-C02) Exam basically validates the ability to effectively demonstrate knowledge of how to architect and deploy secure and robust applications on AWS technologies  Define a solution using architectural design principles based on customer requirements. Provide implementation guidance based on best practices to the organization throughout the life cycle of the project. Refer to the AWS Solution Architect - Associate (SAA-C02) Exam Blue Print Course provides 5 practice tests (65 questions each), to start with in addition to the learning path, important topics, videos for preparation. Refund of the Duplicate PaymentFor duplicate purchases (paid twice for a product by mistake or due to any technical error), you will get a full refund.  If you see a duplicate payment on your card, please reach out to us and we would be happy to check. The refund of the duplicate payment made by the user will be processed via same source (i.e. the original method of payment). It usually takes 4-5 business days. Please provide any feedback or clarifications @ AWS SAA-C02 General feedback"><title>COURSE: AWS Solutions Architect – Associate (SAA-C02) Practice Exams | BrainCert</title> <script src="./COURSE_ AWS Solutions Architect – Associate (SAA-C02) Practice Exams _ BrainCert_files/validate.js.download" type="text/javascript"></script> <script type="text/javascript">
+function keepAlive() {	var myAjax = new Request({method: "get", url: "index.php"}).send();} window.addEvent("domready", function(){ keepAlive.periodical(3540000); });
+  </script> <script type="text/javascript">
+				/*<![CDATA[*/
+					var jax_live_site = 'https://www.braincert.com/index.php';
+					var jax_token_var='3cd25c5510867cf065af5e83795ded88';
+				/*]]>*/
+				</script><script type="text/javascript" src="./COURSE_ AWS Solutions Architect – Associate (SAA-C02) Practice Exams _ BrainCert_files/ajax_1.5.pack.js.download"></script> <meta name="description" content="AWS Solution Architect - Associate (SAA-C02) Exam basically validates the ability to effectively demonstrate knowledge of how to architect and deploy secure and robust applications on AWS technologies  Define a solution using architectural design principles based on customer requirements. Provide implementation guidance based on best practices to the organization throughout the life cycle of the project. Refer to the AWS Solution Architect - Associate (SAA-C02) Exam Blue Print Course provides 5 practice tests (65 questions each), to start with in addition to the learning path, important topics, videos for preparation. Refund of the Duplicate PaymentFor duplicate purchases (paid twice for a product by mistake or due to any technical error), you will get a full refund.  If you see a duplicate payment on your card, please reach out to us and we would be happy to check. The refund of the duplicate payment made by the user will be processed via same source (i.e. the original method of payment). It usually takes 4-5 business days. Please provide any feedback or clarifications @ AWS SAA-C02 General feedback"><link rel="apple-touch-icon-precomposed" href="https://d9q55ve2f7k8m.cloudfront.net/images/apple_touch_icon.png"> <script>
+        !function(window, document) {
+            window._atatusConfig = {
+                apikey: '8c2f3d535648489b9826fd95a6484c2b'
+            };
+            function _asyncAtatus(callback) {
+                var script = document.createElement("script");
+                script.type = "text/javascript";
+                script.async = true;
+                script.src = "https://dmc1acwvwny3.cloudfront.net/atatus.js";
+                var node = document.getElementsByTagName("script")[0];
+                script.addEventListener('load', function (e) {
+                    callback(null, e);
+                }, false);
+                node.parentNode.insertBefore(script, node);
+            }
+            _asyncAtatus(function() {
+                // Any atatus related calls.
+                if (window.atatus) {
+                    window.atatus.setUser('207531', 'baopt@vnext.com.vn', 'Tuong Bao');
+                    console.log(window.atatus);
+                }
+            });
+        }(window, document);
+</script> <style type="text/css">@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/949f99/00000000000000003b9b3068/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/949f99/00000000000000003b9b3068/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/949f99/00000000000000003b9b3068/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;font-display:auto;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/705e94/00000000000000003b9b3062/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/705e94/00000000000000003b9b3062/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/705e94/00000000000000003b9b3062/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;font-display:auto;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/6e816b/00000000000000003b9b3064/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3) format("woff2"),url(https://use.typekit.net/af/6e816b/00000000000000003b9b3064/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3) format("woff"),url(https://use.typekit.net/af/6e816b/00000000000000003b9b3064/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3) format("opentype");font-weight:500;font-style:normal;font-display:auto;}@font-face{font-family:raleway;src:url(https://use.typekit.net/af/8e698b/00000000000000003b9b13b3/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/8e698b/00000000000000003b9b13b3/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/8e698b/00000000000000003b9b13b3/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;font-display:auto;}</style><script src="https://elearningplatform.disqus.com/embed.js" data-timestamp="1605021201968"></script><script type="text/javascript" charset="utf-8" src="./COURSE_ AWS Solutions Architect – Associate (SAA-C02) Practice Exams _ BrainCert_files/saved_resource" async=""></script><script type="text/javascript" charset="utf-8" src="./COURSE_ AWS Solutions Architect – Associate (SAA-C02) Practice Exams _ BrainCert_files/t_prism_sitemessages.php" async=""></script><style></style></head><body id="page-top" style=""><div role="dialog" aria-live="polite" aria-label="cookieconsent" aria-describedby="cookieconsent:desc" class="cc-window cc-floating cc-type-info cc-theme-block cc-bottom cc-left cc-color-override--1360619034 cc-invisible" style="display: none;"><!--googleoff: all--><span id="cookieconsent:desc" class="cc-message">This website uses cookies to ensure you get the best experience on our website. <a aria-label="learn more about cookies" role="button" tabindex="0" class="cc-link" href="https://www.braincert.com/legal/privacy-policy" target="_blank">Learn more</a></span><div class="cc-compliance"><a aria-label="dismiss cookie message" role="button" tabindex="0" class="cc-btn cc-dismiss">Got it!</a></div><!--googleon: all--></div><div id="page-wrap"><div id="preloader"> </div><div class="main-container"><style type="text/css">
+#system-message {
+margin: 0px; padding: 10px 0px 0px 28px;
+}
+#system-message-container .message.message li {
+    list-style: outside none none;
+}
+</style><div style="margin: 0px; padding: 0px; box-shadow: none; border: 0px none; overflow: hidden;" class="alert alert-danger fade in"><div id="system-message-container"> </div> </div> <input type="hidden" id="time_spent" name="time_spent" value="3900"> <script src="./COURSE_ AWS Solutions Architect – Associate (SAA-C02) Practice Exams _ BrainCert_files/html2canvas.js.download"></script> <script type="text/javascript">
+
+
+
+var gonext = 0;
+var download_certificate_show = 0;
+jQuery(document).ready(function () {
+jQuery("li a.disabled").click(function (){ 
+	jQuery('#alertModal').modal('toggle');
+});
+
+	var counter = 0;
+setInterval(function () {
+  ++counter;
+  jQuery('#time_spent').val(counter);
+}, 1000);
+
+	var ch_number = jQuery('.chapter-number-37650').html();
+	var lec_number = jQuery('.lecture-number-79425').html();
+	jQuery('.chapter-number').html(ch_number);
+	jQuery('.lecture-number').html(lec_number);			
+});
+
+function set_iframe(test_id,test_url){
+	jQuery(".iframe_div").html('');
+	var content_iframe ="<iframe class='launch_test' id='launch_test' onload='setIframeHeight()' src='"+test_url+"' frameborder='0' height='900' width='100%'></iframe>"; 
+	jQuery(".class_button").show();
+	jQuery(".class_"+test_id).hide();
+	jQuery("#"+test_id).html(content_iframe);
+}
+
+function getDocHeight(doc) {
+    doc = doc || document;
+    // stackoverflow.com/questions/1145850/
+    var body = doc.body, html = doc.documentElement;
+    var height = Math.max( body.scrollHeight, body.offsetHeight, 
+        html.clientHeight, html.scrollHeight, html.offsetHeight );
+    return height;
+}
+function setassignmentIframeHeight(assignment_id){
+	var ifrm = document.getElementById('assignment_iframe_'+assignment_id);
+    var doc = ifrm.contentDocument? ifrm.contentDocument: 
+        ifrm.contentWindow.document;
+
+    ifrm.style.visibility = 'hidden';
+    ifrm.style.height = "10px"; // reset to minimal height ...
+    // IE opt. for bing/msn needs a bit added or scrollbar appears
+    
+    ifrm.style.height = getDocHeight( doc ) + 50 + "px";
+    ifrm.style.visibility = 'visible';	
+}
+function setIframeHeight() {
+
+    var ifrm = document.getElementById('launch_test');
+    var doc = ifrm.contentDocument? ifrm.contentDocument: 
+        ifrm.contentWindow.document;
+
+    ifrm.style.visibility = 'hidden';
+    ifrm.style.height = "10px"; // reset to minimal height ...
+    // IE opt. for bing/msn needs a bit added or scrollbar appears
+    
+    ifrm.style.height = getDocHeight( doc ) + 4 + "px";
+    ifrm.style.visibility = 'visible';
+}
+
+jQuery(document).ready(function () {
+
+
+	jQuery(".nextlink").removeClass('disable_nextlink'); 
+
+jQuery(".disable_nextlink").click(function(event) {
+			if(download_certificate_show==1){
+			jQuery('#successnavalertModal').modal('toggle');	
+		}
+	
+		
+});
+
+// gonext code start
+
+
+
+// gonext code end
+
+
+	
+
+		jQuery("#yes_resume").click(function () {
+
+			var old_session_url= "https://www.braincert.com/";
+			
+			jQuery.ajax({
+					url: 'https://www.braincert.com/index.php?option=com_courseengine&view=showlecture&task=removelastview&course_id=14804',
+					 type: 'post',
+					  //data: {course_id:'14804'},
+					  success: function (data) { 
+					  window.location.href = old_session_url;
+
+					}
+				});
+    	 });
+		jQuery("#no_resume").click(function () {
+		   
+			jQuery.ajax({
+					url: 'https://www.braincert.com/index.php?option=com_courseengine&view=showlecture&task=updatelastviewsession&course_id=14804',
+					 type: 'post',
+					  //data: {course_id:'14804'},
+					  success: function (data) { 
+					   jQuery('#userlastviewModal').modal('hide');
+					}
+				});
+    	 });
+
+		
+		
+});
+
+</script> <div id="userlastviewModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="userlastviewModalLabel" aria-hidden="true" style="display:none;"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"> <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h3 id="classroomcloseModalLabel">Resume</h3></div><div class="modal-body"><p>Would you like to resume where you left off? <br></p></div><div class="modal-footer"> <input class="btn btn-primary mybutton" aria-hidden="true" type="button" value="Yes" id="yes_resume" style="margin: auto auto auto 95px;"> <input class="btn  mybutton" aria-hidden="true" type="button" value="No" id="no_resume" data-dismiss="modal"> </div></div></div></div><div id="page-wrap"><div class="top-nav"><h4 class="sm black bold">AWS Solutions Architect – Associate (SAA-C02) Practice Exams</h4><ul class="top-nav-list"> <li class="prev-course"><a onclick="return changepage();" href="https://www.braincert.com/course/lecture/14804-AWS-Solutions-Architect-%E2%80%93-Associate-SAA-C02-Practice-Exams/37650?go=b&amp;t=0"><i class="icon md-angle-left"></i><span class="tooltip">Previous</span></a></li> <li class="next-course"> <a class="nextlink" href="https://www.braincert.com/course/lecture/14804-AWS-Solutions-Architect-%E2%80%93-Associate-SAA-C02-Practice-Exams/79426?go=f&amp;t=1"> <i class="icon md-angle-right"></i> <span class="tooltip nexttooltip">Next</span> </a> </li> <li class="outline-learn"> <a href="https://www.braincert.com/course/lecture/14804-AWS-Solutions-Architect-%E2%80%93-Associate-SAA-C02-Practice-Exams/79425?t=1#"> <i class="icon md-list"></i> <span class="tooltip" style="font-size: 10px;">Lecture list</span> </a> <div class="list-item-body outline-learn-body ps-container ps-active-y" style="width: 360px; height: 532px;"><div class="section-learn-outline"><h5 class="section-title">Chapter&nbsp;<span class="chapter-number-37650">1</span>: &nbsp; <a href="https://www.braincert.com/course/lecture/14804-AWS-Solutions-Architect-%E2%80%93-Associate-SAA-C02-Practice-Exams/37650?t=0" class="chapter-title">AWS Certified SA – Associate SAA-C02 Practice Exams</a></h5><ul class="section-list"> <li id="lecture_li_79425" class="o-view"><div class="list-body"> <a href="https://www.braincert.com/course/lecture/14804-AWS-Solutions-Architect-%E2%80%93-Associate-SAA-C02-Practice-Exams/79425?t=1"> <span class="lecturetabtitle">Lecture&nbsp;<span class="lecture-number-79425">1</span>:</span> <span class="lecturetabtitlecontent">AWS Solution Architect - Associate SAA-C02 Practice Exam 1 </span> </a> </div><div class="data-lessons"> &nbsp;<span><i class="fa fa-list-ol"></i>&nbsp;65 questions&nbsp;</span> <br> <a href="https://www.braincert.com/course/lecture/14804-AWS-Solutions-Architect-%E2%80%93-Associate-SAA-C02-Practice-Exams/79425?t=1#" onclick="showlecturetestresult(&#39;79425&#39;,&#39;/course/lecturetesthistory/79425/1&#39;);" style="font-size: 13px;padding-left: 3px;"> <i class="fa fa-check-square-o"></i> View test results</a> </div><div class="download"> </div><div class="div-x"> <i class="icon md-check-2"></i> </div></li> <li id="lecture_li_79426"><div class="list-body"> <a href="https://www.braincert.com/course/lecture/14804-AWS-Solutions-Architect-%E2%80%93-Associate-SAA-C02-Practice-Exams/79426?t=1"> <span class="lecturetabtitle">Lecture&nbsp;<span class="lecture-number-79426">2</span>:</span> <span class="lecturetabtitlecontent">AWS Solution Architect - Associate SAA-C02 Practice Exam 2 </span> </a> </div><div class="data-lessons"> &nbsp;<span><i class="fa fa-list-ol"></i>&nbsp;65 questions&nbsp;</span> <br> <a href="https://www.braincert.com/course/lecture/14804-AWS-Solutions-Architect-%E2%80%93-Associate-SAA-C02-Practice-Exams/79425?t=1#" onclick="showlecturetestresult(&#39;79426&#39;,&#39;/course/lecturetesthistory/79426/1&#39;);" style="font-size: 13px;padding-left: 3px;"> <i class="fa fa-check-square-o"></i> View test results</a> </div><div class="download"> </div><div class="div-x"> <i class="icon md-check-2"></i> </div></li> <li id="lecture_li_79427"><div class="list-body"> <a href="https://www.braincert.com/course/lecture/14804-AWS-Solutions-Architect-%E2%80%93-Associate-SAA-C02-Practice-Exams/79427?t=1"> <span class="lecturetabtitle">Lecture&nbsp;<span class="lecture-number-79427">3</span>:</span> <span class="lecturetabtitlecontent">AWS Solution Architect - Associate SAA-C02 Practice Exam 3 </span> </a> </div><div class="data-lessons"> &nbsp;<span><i class="fa fa-list-ol"></i>&nbsp;65 questions&nbsp;</span> <br> <a href="https://www.braincert.com/course/lecture/14804-AWS-Solutions-Architect-%E2%80%93-Associate-SAA-C02-Practice-Exams/79425?t=1#" onclick="showlecturetestresult(&#39;79427&#39;,&#39;/course/lecturetesthistory/79427/1&#39;);" style="font-size: 13px;padding-left: 3px;"> <i class="fa fa-check-square-o"></i> View test results</a> </div><div class="download"> </div><div class="div-x"> <i class="icon md-check-2"></i> </div></li> <li id="lecture_li_79428"><div class="list-body"> <a href="https://www.braincert.com/course/lecture/14804-AWS-Solutions-Architect-%E2%80%93-Associate-SAA-C02-Practice-Exams/79428?t=1"> <span class="lecturetabtitle">Lecture&nbsp;<span class="lecture-number-79428">4</span>:</span> <span class="lecturetabtitlecontent">AWS Solution Architect - Associate SAA-C02 Practice Exam 4 </span> </a> </div><div class="data-lessons"> &nbsp;<span><i class="fa fa-list-ol"></i>&nbsp;65 questions&nbsp;</span> <br> <a href="https://www.braincert.com/course/lecture/14804-AWS-Solutions-Architect-%E2%80%93-Associate-SAA-C02-Practice-Exams/79425?t=1#" onclick="showlecturetestresult(&#39;79428&#39;,&#39;/course/lecturetesthistory/79428/1&#39;);" style="font-size: 13px;padding-left: 3px;"> <i class="fa fa-check-square-o"></i> View test results</a> </div><div class="download"> </div><div class="div-x"> <i class="icon md-check-2"></i> </div></li> <li id="lecture_li_79429"><div class="list-body"> <a href="https://www.braincert.com/course/lecture/14804-AWS-Solutions-Architect-%E2%80%93-Associate-SAA-C02-Practice-Exams/79429?t=1"> <span class="lecturetabtitle">Lecture&nbsp;<span class="lecture-number-79429">5</span>:</span> <span class="lecturetabtitlecontent">AWS Solution Architect - Associate SAA-C02 Practice Exam 5 </span> </a> </div><div class="data-lessons"> &nbsp;<span><i class="fa fa-list-ol"></i>&nbsp;63 questions&nbsp;</span> <br> <a href="https://www.braincert.com/course/lecture/14804-AWS-Solutions-Architect-%E2%80%93-Associate-SAA-C02-Practice-Exams/79425?t=1#" onclick="showlecturetestresult(&#39;79429&#39;,&#39;/course/lecturetesthistory/79429/1&#39;);" style="font-size: 13px;padding-left: 3px;"> <i class="fa fa-check-square-o"></i> View test results</a> </div><div class="download"> </div><div class="div-x"> <i class="icon md-check-2"></i> </div></li> </ul> </div><div class="section-learn-outline"><h5 class="section-title">Chapter&nbsp;<span class="chapter-number-17365">2</span>: &nbsp; <a href="https://www.braincert.com/course/lecture/14804-AWS-Solutions-Architect-%E2%80%93-Associate-Feb-2018/17365?t=0" class="chapter-title">AWS Certified SA – Associate SAA-C01 Practice Exams</a></h5><ul class="section-list"> <li id="lecture_li_34968"><div class="list-body"> <a href="https://www.braincert.com/course/lecture/14804-AWS-Solutions-Architect-%E2%80%93-Associate-Feb-2018-Practice-Exams/34968?t=1"> <span class="lecturetabtitle">Lecture&nbsp;<span class="lecture-number-34968">1</span>:</span> <span class="lecturetabtitlecontent">AWS Solution Architect - Associate SAA-C01 Practice Exam 1 </span> </a> </div><div class="data-lessons"> &nbsp;<span><i class="fa fa-list-ol"></i>&nbsp;65 questions&nbsp;</span> <br> <a href="https://www.braincert.com/course/lecture/14804-AWS-Solutions-Architect-%E2%80%93-Associate-SAA-C02-Practice-Exams/79425?t=1#" onclick="showlecturetestresult(&#39;34968&#39;,&#39;/course/lecturetesthistory/34968/1&#39;);" style="font-size: 13px;padding-left: 3px;"> <i class="fa fa-check-square-o"></i> View test results</a> </div><div class="download"> </div><div class="div-x"> <i class="icon md-check-2"></i> </div></li> <li id="lecture_li_34969"><div class="list-body"> <a href="https://www.braincert.com/course/lecture/14804-AWS-Solutions-Architect-%E2%80%93-Associate-Feb-2018-Practice-Exams/34969?t=1"> <span class="lecturetabtitle">Lecture&nbsp;<span class="lecture-number-34969">2</span>:</span> <span class="lecturetabtitlecontent">AWS Solution Architect - Associate SAA-C01 Practice Exam 2 </span> </a> </div><div class="data-lessons"> &nbsp;<span><i class="fa fa-list-ol"></i>&nbsp;65 questions&nbsp;</span> <br> <a href="https://www.braincert.com/course/lecture/14804-AWS-Solutions-Architect-%E2%80%93-Associate-SAA-C02-Practice-Exams/79425?t=1#" onclick="showlecturetestresult(&#39;34969&#39;,&#39;/course/lecturetesthistory/34969/1&#39;);" style="font-size: 13px;padding-left: 3px;"> <i class="fa fa-check-square-o"></i> View test results</a> </div><div class="download"> </div><div class="div-x"> <i class="icon md-check-2"></i> </div></li> <li id="lecture_li_34970"><div class="list-body"> <a href="https://www.braincert.com/course/lecture/14804-AWS-Solutions-Architect-%E2%80%93-Associate-Feb-2018-Practice-Exams/34970?t=1"> <span class="lecturetabtitle">Lecture&nbsp;<span class="lecture-number-34970">3</span>:</span> <span class="lecturetabtitlecontent">AWS Solution Architect - Associate SAA-C01 Practice Exam 3 </span> </a> </div><div class="data-lessons"> &nbsp;<span><i class="fa fa-list-ol"></i>&nbsp;65 questions&nbsp;</span> <br> <a href="https://www.braincert.com/course/lecture/14804-AWS-Solutions-Architect-%E2%80%93-Associate-SAA-C02-Practice-Exams/79425?t=1#" onclick="showlecturetestresult(&#39;34970&#39;,&#39;/course/lecturetesthistory/34970/1&#39;);" style="font-size: 13px;padding-left: 3px;"> <i class="fa fa-check-square-o"></i> View test results</a> </div><div class="download"> </div><div class="div-x"> <i class="icon md-check-2"></i> </div></li> <li id="lecture_li_34971"><div class="list-body"> <a href="https://www.braincert.com/course/lecture/14804-AWS-Solutions-Architect-%E2%80%93-Associate-Feb-2018-Practice-Exams/34971?t=1"> <span class="lecturetabtitle">Lecture&nbsp;<span class="lecture-number-34971">4</span>:</span> <span class="lecturetabtitlecontent">AWS Solution Architect - Associate SAA-C01 Practice Exam 4 </span> </a> </div><div class="data-lessons"> &nbsp;<span><i class="fa fa-list-ol"></i>&nbsp;65 questions&nbsp;</span> <br> <a href="https://www.braincert.com/course/lecture/14804-AWS-Solutions-Architect-%E2%80%93-Associate-SAA-C02-Practice-Exams/79425?t=1#" onclick="showlecturetestresult(&#39;34971&#39;,&#39;/course/lecturetesthistory/34971/1&#39;);" style="font-size: 13px;padding-left: 3px;"> <i class="fa fa-check-square-o"></i> View test results</a> </div><div class="download"> </div><div class="div-x"> <i class="icon md-check-2"></i> </div></li> <li id="lecture_li_34972"><div class="list-body"> <a href="https://www.braincert.com/course/lecture/14804-AWS-Solutions-Architect-%E2%80%93-Associate-Feb-2018-Practice-Exams/34972?t=1"> <span class="lecturetabtitle">Lecture&nbsp;<span class="lecture-number-34972">5</span>:</span> <span class="lecturetabtitlecontent">AWS Solution Architect - Associate SAA-C01 Practice Exam 5 </span> </a> </div><div class="data-lessons"> &nbsp;<span><i class="fa fa-list-ol"></i>&nbsp;65 questions&nbsp;</span> <br> <a href="https://www.braincert.com/course/lecture/14804-AWS-Solutions-Architect-%E2%80%93-Associate-SAA-C02-Practice-Exams/79425?t=1#" onclick="showlecturetestresult(&#39;34972&#39;,&#39;/course/lecturetesthistory/34972/1&#39;);" style="font-size: 13px;padding-left: 3px;"> <i class="fa fa-check-square-o"></i> View test results</a> </div><div class="download"> </div><div class="div-x"> <i class="icon md-check-2"></i> </div></li> <li id="lecture_li_34973"><div class="list-body"> <a href="https://www.braincert.com/course/lecture/14804-AWS-Solutions-Architect-%E2%80%93-Associate-Feb-2018-Practice-Exams/34973?t=1"> <span class="lecturetabtitle">Lecture&nbsp;<span class="lecture-number-34973">6</span>:</span> <span class="lecturetabtitlecontent">AWS Solution Architect - Associate SAA-C01 Practice Exam 6 </span> </a> </div><div class="data-lessons"> &nbsp;<span><i class="fa fa-list-ol"></i>&nbsp;65 questions&nbsp;</span> <br> <a href="https://www.braincert.com/course/lecture/14804-AWS-Solutions-Architect-%E2%80%93-Associate-SAA-C02-Practice-Exams/79425?t=1#" onclick="showlecturetestresult(&#39;34973&#39;,&#39;/course/lecturetesthistory/34973/1&#39;);" style="font-size: 13px;padding-left: 3px;"> <i class="fa fa-check-square-o"></i> View test results</a> </div><div class="download"> </div><div class="div-x"> <i class="icon md-check-2"></i> </div></li> <li id="lecture_li_34974"><div class="list-body"> <a href="https://www.braincert.com/course/lecture/14804-AWS-Solutions-Architect-%E2%80%93-Associate-Feb-2018-Practice-Exams/34974?t=1"> <span class="lecturetabtitle">Lecture&nbsp;<span class="lecture-number-34974">7</span>:</span> <span class="lecturetabtitlecontent">AWS Solution Architect - Associate SAA-C01 Practice Exam 7 </span> </a> </div><div class="data-lessons"> &nbsp;<span><i class="fa fa-list-ol"></i>&nbsp;65 questions&nbsp;</span> <br> <a href="https://www.braincert.com/course/lecture/14804-AWS-Solutions-Architect-%E2%80%93-Associate-SAA-C02-Practice-Exams/79425?t=1#" onclick="showlecturetestresult(&#39;34974&#39;,&#39;/course/lecturetesthistory/34974/1&#39;);" style="font-size: 13px;padding-left: 3px;"> <i class="fa fa-check-square-o"></i> View test results</a> </div><div class="download"> </div><div class="div-x"> <i class="icon md-check-2"></i> </div></li> <li id="lecture_li_34975"><div class="list-body"> <a href="https://www.braincert.com/course/lecture/14804-AWS-Solutions-Architect-%E2%80%93-Associate-Feb-2018-Practice-Exams/34975?t=1"> <span class="lecturetabtitle">Lecture&nbsp;<span class="lecture-number-34975">8</span>:</span> <span class="lecturetabtitlecontent">AWS Solution Architect - Associate SAA-C01 Practice Exam 8 </span> </a> </div><div class="data-lessons"> &nbsp;<span><i class="fa fa-list-ol"></i>&nbsp;65 questions&nbsp;</span> <br> <a href="https://www.braincert.com/course/lecture/14804-AWS-Solutions-Architect-%E2%80%93-Associate-SAA-C02-Practice-Exams/79425?t=1#" onclick="showlecturetestresult(&#39;34975&#39;,&#39;/course/lecturetesthistory/34975/1&#39;);" style="font-size: 13px;padding-left: 3px;"> <i class="fa fa-check-square-o"></i> View test results</a> </div><div class="download"> </div><div class="div-x"> <i class="icon md-check-2"></i> </div></li> <li id="lecture_li_46320"><div class="list-body"> <a href="https://www.braincert.com/course/lecture/14804-AWS-Solutions-Architect-%E2%80%93-Associate-SAA-C01-Practice-Exams/46320?t=1"> <span class="lecturetabtitle">Lecture&nbsp;<span class="lecture-number-46320">9</span>:</span> <span class="lecturetabtitlecontent">AWS Solution Architect - Associate SAA-C01 Practice Exam 9 </span> </a> </div><div class="data-lessons"> &nbsp;<span><i class="fa fa-list-ol"></i>&nbsp;65 questions&nbsp;</span> <br> <a href="https://www.braincert.com/course/lecture/14804-AWS-Solutions-Architect-%E2%80%93-Associate-SAA-C02-Practice-Exams/79425?t=1#" onclick="showlecturetestresult(&#39;46320&#39;,&#39;/course/lecturetesthistory/46320/1&#39;);" style="font-size: 13px;padding-left: 3px;"> <i class="fa fa-check-square-o"></i> View test results</a> </div><div class="download"> </div><div class="div-x"> <i class="icon md-check-2"></i> </div></li> </ul> </div> <div class="ps-scrollbar-x-rail" style="width: 359px; display: none; left: 0px;"><div class="ps-scrollbar-x" style="left: 0px; width: 0px;"></div></div><div class="ps-scrollbar-y-rail" style="top: 0px; height: 565px; display: inherit; right: 0px;"><div class="ps-scrollbar-y" style="top: 0px; height: 137px;"></div></div></div> </li> <script type="text/javascript">
+function showlecturetestresult(lecture_id,url){
+		jQuery("#showlecturetestresultModal iframe").attr("src",url);
+    	jQuery("#showlecturetestresultModal iframe").show();
+    	jQuery('#showlecturetestresultModal').modal('toggle');
+    	jQuery('#showtestreviewModal').modal('hide');    	
+    	jQuery("ul.top-nav-list li.outline-learn").removeClass('active');
+	}
+function showtestresult(tests_results_id,test_id){
+		jQuery("#showtestresultModal iframe").attr("src", "https://www.braincert.com/index.php?option=com_testengine&Id="+test_id+"&token="+tests_results_id+"&view=testfinalscore&from_course=1");
+    	jQuery("#showtestresultModal iframe").show();
+    	jQuery('#showtestresultModal').modal('toggle');
+    	jQuery('#showtestreviewModal').modal('hide');
+    	jQuery("ul.top-nav-list li.outline-learn").removeClass('active');
+	}
+	function showtestreview(tests_results_id){
+		jQuery("#showtestreviewModal iframe").attr("src", "https://www.braincert.com/index.php?option=com_testengine&from_course=1&view=testreviseanswers&Id="+tests_results_id+"");
+    	jQuery("#showtestreviewModal iframe").show();
+    	jQuery('#showtestreviewModal').modal('toggle');
+    	jQuery('#showtestresultModal').modal('hide');
+    	jQuery("ul.top-nav-list li.outline-learn").removeClass('active');
+	}
+
+jQuery(document).ready(function () {
+	  
+});
+</script> <li class="discussion-learn"> <a href="https://www.braincert.com/course/lecture/14804-AWS-Solutions-Architect-%E2%80%93-Associate-SAA-C02-Practice-Exams/79425?t=1#"> <i class="icon md-comments"></i> <span class="tooltip">Discussion</span> </a> <div class="list-item-body discussion-learn-body ps-container" style="width: 360px; height: 532px;"><div class="inner"><div class="form-discussion"><div class="comment-padding" id="disqus_thread"></div> <script>
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+
+s.src = '//elearningplatform.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script> <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript></div></div><div class="ps-scrollbar-x-rail" style="width: 359px; display: none; left: 0px;"><div class="ps-scrollbar-x" style="left: 0px; width: 0px;"></div></div><div class="ps-scrollbar-y-rail" style="top: 0px; height: 565px; display: none; right: 0px;"><div class="ps-scrollbar-y" style="top: 0px; height: 0px;"></div></div></div></li> <li class="note-learn"> <a href="https://www.braincert.com/course/lecture/14804-AWS-Solutions-Architect-%E2%80%93-Associate-SAA-C02-Practice-Exams/79425?t=1#"> <i class="icon md-file"></i> <span class="tooltip">Notes</span> </a> <div class="list-item-body note-learn-body ps-container ps-active-y" style="width: 360px; height: 532px;"><div class="note-title"><h5>Note</h5> <a href="https://www.braincert.com/course/lecture/14804-AWS-Solutions-Architect-%E2%80%93-Associate-SAA-C02-Practice-Exams/79425?t=1#" id="btnsavenote"> <i class="fa fa-floppy-o"></i> <span class="tooltip">Save</span> </a> </div><div contenteditable="true" class="note-body"> Start writing here </div><div class="ps-scrollbar-x-rail" style="width: 359px; display: none; left: 0px;"><div class="ps-scrollbar-x" style="left: 0px; width: 0px;"></div></div><div class="ps-scrollbar-y-rail" style="top: 0px; height: 565px; display: inherit; right: 0px;"><div class="ps-scrollbar-y" style="top: 0px; height: 150px;"></div></div></div></li> <li class="backpage"> <a href="https://www.braincert.com/course/14804-AWS-Solutions-Architect-%E2%80%93-Associate-Feb-2018"><i class="icon md-close-1"></i> <span class="tooltip">Exit</span> </a> </li> </ul> </div><section id="learning-section" class="learning-section learn-section" style="padding-right: 0px; min-height: 592px;"><div class="container"><div class="title-ct"><h3 style="max-width: 85%;"><strong>Chapter&nbsp;<span class="chapter-number">1</span>:</strong>AWS Certified SA – Associate SAA-C02 Practice Exams &nbsp;|&nbsp; <strong>Lecture&nbsp;<span class="lecture-number">1</span>:</strong>AWS Solution Architect - Associate SAA-C02 Practice Exam 1</h3><div class="tt-right"><div id="learned-div"><div id="learned-div"> <span class="label label-success cert-font"><i class="fa fa-check-square-o"></i> LEARNED</span> </div></div></div><div class="abc"><div> <script src="./COURSE_ AWS Solutions Architect – Associate (SAA-C02) Practice Exams _ BrainCert_files/countdown.js.download"></script> <div class="content_viewer"><div class="new-course center"> <button class="btn btn-large btn-success class_button class_23986" type="button" onclick="set_iframe(&#39;23986&#39;,&#39;/test/starttest/23986-AWS-Certified-Solutions-Architect-–-Associate-SAA-C02-Practice-exam-1?from_course=1&amp;lecture_id=79425&#39;)" style="display: none;"><span style="letter-spacing:1px;font-size:18px;font-weight:600;">Start Test <i class="fa fa-chevron-right"></i></span></button><div id="23986" class="iframe_div"><iframe class="launch_test" id="launch_test" onload="setIframeHeight()" src="./COURSE_ AWS Solutions Architect – Associate (SAA-C02) Practice Exams _ BrainCert_files/23986-AWS-Certified-Solutions-Architect-–-Associate-SAA-C02-Practice-exam-1.html" frameborder="0" height="900" width="100%" style="visibility: visible; height: 70786px;"></iframe></div> </div><hr></div></div></div></div></div></section></div></div> <script type="text/javascript">
+var is_myVar_trigger=null;
+	function btndelete(note_id,lecture_id){
+			 var data = {
+	        	'note_id': note_id,
+				'lecture_id':lecture_id,
+	        };
+			jQuery.ajax({
+	            url: 'https://www.braincert.com/index.php?option=com_courseengine&view=showlecture&task=deletenotes',
+	            type: 'POST',
+	            dataType: 'html',
+	            data: data,
+	            success:function(result) 
+	            {
+					jQuery("#notecontainer").html(result);
+	            }
+	        }); 
+		}
+	jQuery(document).ready(function() {
+		 jQuery('#btnsavenote').click( function() {
+		
+		 var note = jQuery('.note-body').html();
+		    if(note =="")	{	 
+				 jQuery("#note_error_div").addClass("error2");	 
+		  		return false ; 
+			}
+
+			jQuery("#note_error_div").removeClass("error2");
+			var id = 79425;
+			 var data = {
+	        	'note': note,
+	            'id': id,
+			    'cid': 14804				 
+	        };
+			 jQuery.ajax({
+	            url: 'https://www.braincert.com/index.php?option=com_courseengine&view=showlecture&task=addsavenotes',
+	            type: 'POST',
+	            dataType: 'html',
+	            data: data,
+	            success:function(result) 
+	            {
+	            	
+	            	jQuery('#successModal').modal('toggle');
+					
+	            }
+	        }); 
+		}	); 
+		
+		jQuery('#course-element').change(function() {
+			var type = jQuery(this + ":selected").attr('type');
+			var id = jQuery(this).val();
+			document.location.href = 'https://www.braincert.com/index.php?option=com_courseengine&view=showlecture&id=' + id + '&t=' + type + '&cid=14804&Itemid=1874';
+		});
+		//markaslearned
+		
+		 jQuery('#markaslearned').click( function() {
+			 if(jQuery("#markaslearned").is(':checked')){
+				var lecture_id = 79425;
+				var cid = 14804;
+				var totallectures = 14;
+				var time_spent = jQuery('#time_spent').val();
+				var data = {
+					'lecture_id': lecture_id,
+					'cid': cid,
+					'time_spent':time_spent,
+					'totallectures': totallectures
+				};
+				jQuery.ajax({
+					url: 'https://www.braincert.com/index.php?option=com_courseengine&view=showlecture&task=completelecture',
+					type: 'GET',
+					dataType: 'html',
+					data: data,
+					success:function(result) 
+					{
+						jQuery( "#learned-div" ).html( "<span class='label btn-success cert-font'><i class='fa fa-check-square-o'></i> LEARNED</span>" );
+						jQuery("#learnnextcontainer").css("display", "block");
+						
+						jQuery("a.nextlink").attr("href","/course/lecture/14804-AWS-Solutions-Architect-–-Associate-SAA-C02-Practice-Exams/79426?go=f&amp;t=1");
+						gonext = 1;
+						jQuery(".nexttooltip").html("Next");
+						jQuery("h2.nextlink").css("color","#33363f");
+						jQuery("i.nextlink").css("color","#33363f");
+						jQuery("a.nextlink").attr("title","Next");
+						jQuery("#lecture_li_"+lecture_id).addClass('o-view');
+						var mark_response = jQuery.parseJSON(result);
+						if(mark_response.completed_percentage>=100){
+							download_certificate_show = 1;
+							jQuery('#successnavalertModal').modal('toggle');
+							jQuery("#downloadcert").css("display","");
+						}
+
+					}
+				});  
+			 }			
+        });
+		
+		function completelecture(){
+							}
+		
+		completelecture();
+		//parent window:
+		jQuery('body').bind('complete', function(){
+		   		});
+		
+	});
+	
+</script> <div id="successModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="successModal" aria-hidden="true"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"> <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button><h3 id="myModalLabel">Successful</h3></div><div class="modal-body"> Note has been successfully saved. </div><div class="modal-footer"> <button class="btn btn-default" data-dismiss="modal" aria-hidden="true">Close</button> </div> </div> </div> </div><div id="navalertModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="navalertModal" aria-hidden="true"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"> <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button><h3 id="myModalLabel">Navigation alert</h3></div><div class="modal-body"> You need to mark this lecture as learned to move on to the next lecture. </div><div class="modal-footer"> <button class="btn btn-default" data-dismiss="modal" aria-hidden="true">Close</button> </div> </div> </div> </div><div id="successnavalertModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="successnavalertModal" aria-hidden="true" style="top:100px;"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"> <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button><h5 id="myModalLabel" style="color: #333;">Congratulations, Tuong Bao!</h5></div><div class="modal-body"><p style="text-align: center;"><i class="fa fa-trophy fa-2x"></i></p><p>Congratulations! You have successfully completed the course <strong>AWS Solutions Architect – Associate (SAA-C02) Practice Exams</strong>.</p></div><div class="modal-footer"> <button class="btn btn-default" data-dismiss="modal" aria-hidden="true">Close</button> </div> </div> </div> </div> <script type="text/javascript">
+	var temp_timer = jQuery(".jw-text.jw-reset.jw-text-elapsed").html();
+</script> <style type="text/css">
+	.top-nav .top-nav-list > li > a{height: 60px; vertical-align: middle;}
+</style><div id="showtestreviewModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="showtestreviewModalModalLabel" aria-hidden="true" style="display:none;"><div class="modal-dialog" style="width: 810px;margin-top: 100px;"><div class="modal-content"><div class="modal-body"> <iframe src="./COURSE_ AWS Solutions Architect – Associate (SAA-C02) Practice Exams _ BrainCert_files/saved_resource.html" frameborder="0" style="width: 790px; height: 600px; border: 0; display: none; overflow: scroll;" noresize="noresize" scrolling="yes" allowfullscreen=""> </iframe> </div><div class="modal-footer"> </div> </div> </div> </div><div id="showlecturetestresultModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="showlecturetestresultModalLabel" aria-hidden="true" style="display:none;z-index: 99999;"><div class="modal-dialog" style="width: 1020px;margin-top: 100px;"><div class="modal-content"><div class="modal-header" style="background-color: #337ab7;"> <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button><h6 style="margin: 0;">Test results</h6></div><div class="modal-body"> <iframe src="./COURSE_ AWS Solutions Architect – Associate (SAA-C02) Practice Exams _ BrainCert_files/saved_resource(2).html" frameborder="0" style="width: 1000px; height: 600px; border: 0; display: none; overflow: scroll;" noresize="noresize" scrolling="yes" allowfullscreen=""> </iframe> </div><div class="modal-footer"> </div> </div> </div> </div><div id="showtestresultModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="showtestresultModalLabel" aria-hidden="true" style="display:none;"><div class="modal-dialog" style="width: 850px;margin-top: 100px;"><div class="modal-content"><div class="modal-body"> <iframe src="./COURSE_ AWS Solutions Architect – Associate (SAA-C02) Practice Exams _ BrainCert_files/saved_resource(3).html" frameborder="0" style="width: 825px; height: 600px; border: 0; display: none; overflow: scroll;" noresize="noresize" scrolling="yes" allowfullscreen=""> </iframe> </div><div class="modal-footer"> </div> </div> </div> </div><div id="alertModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="alertModal" aria-hidden="true"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"> <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button><h3 id="myModalLabel">Navigation alert</h3></div><div class="modal-body"> you can't proceed to that class until the previous is marked learned or completed. </div><div class="modal-footer"> <button class="btn btn-default" data-dismiss="modal" aria-hidden="true">Close</button> </div> </div> </div> </div> <script type="text/javascript">
+	function get_download_link(obj,course_id){
+    var download_url = jQuery(obj).attr('data-url');
+    var certificate_id = jQuery(obj).attr('data-certificate-id');
+    var data_user_id = jQuery(obj).attr('data-user-id');
+    jQuery(".spinner").html('<img src="https://static-assets.braincert.com/images/courseengine/ajax-loader.gif"/>');
+   var original_onclick = jQuery(obj).attr('onclick');
+   jQuery(obj).attr('onclick','');
+        jQuery.ajax({
+              url: download_url,
+              type: 'GET',
+              dataType: 'html',
+              success:function(result)
+              {
+                jQuery("#certificate_html_preview").html(result);
+                      html2canvas(
+                      document.querySelector("#certificate_html_d"), 
+                        { useCORS: true } ).then(canvas => {
+                      //document.body.appendChild(canvas)
+                      var imagedata = canvas.toDataURL('image/png');
+                      var imgdata = imagedata.replace(/^data:image\/(png|jpg);base64,/, "");
+
+                      //ajax call to save image inside folder
+                       jQuery.ajax({
+                        url: 'https://www.braincert.com/index.php?option=com_courseengine&view=listcertificates&task=saveScreenShot&certificate_id=1&v=1605021175',
+                        data: {"imgdata" : imgdata,"course_id" : course_id,"data_user_id" : data_user_id,"cert_id" : certificate_id},
+                        type: 'POST',
+                          success: function (response) {
+                            jQuery(obj).attr('onclick',original_onclick);
+                            jQuery("a.d_certificate_tag").attr('href', response);
+                            jQuery("a.d_certificate_tag > span").trigger('click');
+                            jQuery(".spinner").html('');
+                          }
+                        });
+                      });
+              }
+          });
+      };
+    </script> <div id="certificate_html_preview" style="position: fixed;left:-100%;"></div> <a class="d_certificate_tag" href="https://www.braincert.com/" download="certificate-2020-11-10-10-12-55.pdf"><span style="display: none;">click here</span></a> <div class="overlayForm"></div></div> <script type="text/javascript" src="./COURSE_ AWS Solutions Architect – Associate (SAA-C02) Practice Exams _ BrainCert_files/bc-course.min_052517.js.download"></script> <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3755947-1', 'auto');
+  ga('send', 'pageview');
+
+</script> <script src="./COURSE_ AWS Solutions Architect – Associate (SAA-C02) Practice Exams _ BrainCert_files/js" type="text/javascript"></script> <script type="text/javascript">try{ clicky.init(100922804); }catch(e){}</script> <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100922804ns.gif" /></p></noscript> <script type="text/javascript">
+(function(e,t,o,n,p,r,i){e.visitorGlobalObjectAlias=n;e[e.visitorGlobalObjectAlias]=e[e.visitorGlobalObjectAlias]||function(){(e[e.visitorGlobalObjectAlias].q=e[e.visitorGlobalObjectAlias].q||[]).push(arguments)};e[e.visitorGlobalObjectAlias].l=(new Date).getTime();r=t.createElement("script");r.src=o;r.async=true;i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)})(window,document,"https://diffuser-cdn.app-us1.com/diffuser/diffuser.js","vgo");
+vgo('setAccount', '475731307');
+vgo('setTrackByDefault', true);
+vgo('process');
+</script> <link href="./COURSE_ AWS Solutions Architect – Associate (SAA-C02) Practice Exams _ BrainCert_files/cookieconsent.min.css" rel="stylesheet" type="text/css"> <script src="./COURSE_ AWS Solutions Architect – Associate (SAA-C02) Practice Exams _ BrainCert_files/cookieconsent.min.js.download"></script> <script>
+      window.addEventListener("load", function() {
+          if (!window.cookieconsent) {
+              return;
+          }
+          window.cookieconsent.initialise({
+              "palette": {
+                  "popup": {
+                      "background": "#237afc"
+                  },
+                  "button": {
+                      "background": "#fff",
+                      "text": "#237afc"
+                  }
+              },
+              "content": {
+                  "href": "/legal/privacy-policy"
+              },
+              "position": "bottom-left"
+          });
+      });
+    </script> <script type="text/javascript" async="" src="./COURSE_ AWS Solutions Architect – Associate (SAA-C02) Practice Exams _ BrainCert_files/in.php"></script></body></html>
